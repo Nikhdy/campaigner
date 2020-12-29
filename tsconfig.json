@@ -1,0 +1,32 @@
+{
+  "include":["src/**/*"],
+  "skipLibCheck": true,
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+    "jsx": "react",
+    "module": "es6",
+    "baseUrl": "./src",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "removeComments": true,
+    "strictNullChecks": false,
+    "plugins": [{"name": "typescript-tslint-plugin"}],
+    "outDir": "build",
+    "lib": [
+      "es6",
+      "es7",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "build"
+  ]
+}

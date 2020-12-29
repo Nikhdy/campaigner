@@ -1,0 +1,97 @@
+.newsletter_container{
+  position: fixed;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  overflow: hidden;
+  outline: 0;
+  background-color: #fff;
+  .editor-actions{
+    text-align: right;
+  }
+}
+
+.editor_wrapper{
+  .editor_header{
+    display: block;
+    padding: 10px;
+  }
+  .editor_body{
+
+  }
+  .editor_footer{
+      
+  }
+  .newsletter_body{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    .canvas{
+      flex: 70%;
+
+      .upload-viewer{
+        min-height: 3rem;
+        min-width: 3rem;
+        display: inline-block;
+        position: relative;
+        .img-input{
+          display: none;
+        }
+        .upload-photo{
+          position: absolute;
+          bottom: 0;
+          right:0;
+          padding: 5px;
+          border-radius: 4px;
+          background-color: var(--mdc-theme-surface, #fff);
+          box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0,0,0,.12);
+        }
+      }
+    }
+    .toolkit{
+      flex: 30%;
+      .nav-tabs{
+        border-bottom: none;
+      }
+      .card-header-tabs{
+        padding-left: 10px;
+      }
+      .hidden{
+        display: none
+      } 
+      .tool-container{
+        display: flex;
+        flex-wrap: wrap;
+        .tool-card:hover{
+          box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 1), 0px 1px 3px 0px rgba(0,0,0,.12);
+        }
+        .tool-card{
+          height: 6rem;
+          width: 6rem;
+          border: 1px solid #afafaf;
+          border-radius: 4px;
+          margin:10px;
+          padding: 10px 5px;
+          background-color: var(--mdc-theme-surface, #fff);
+          box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0,0,0,.12);
+          i{
+            width: 100%;
+            text-align:center;
+            font-size: 3rem;
+          }
+          .tool-label{
+            font-size: 0.7rem;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+.flex-100{
+  flex: 100%;
+}

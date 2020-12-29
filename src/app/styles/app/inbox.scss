@@ -1,0 +1,35 @@
+
+.ae-list-w .ae-list {
+  height: auto;
+}
+
+.inbox-container {
+  display: flex;
+  flex-direction: column;
+  padding:0px !important;
+  .app-email-w { 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    .app-email-i {
+      flex: 1;
+    }
+  }
+}
+
+.user-w {
+  max-width: 80%;
+}
+.show-msgs {
+  display: block !important;
+}
+
+.aec-full-message-w .message-content {
+  padding: 5%;
+}
+
+.ae-list-w {
+  -ms-flex: 0 0 310px;
+  flex: 0 0 310px;
+}
+

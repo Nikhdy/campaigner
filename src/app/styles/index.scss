@@ -1,0 +1,24 @@
+
+/* 3RD Party CSS LIBS */
+// @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500');
+
+// @import '~bootstrap/dist/css/bootstrap.css';
+@import '~font-awesome/css/font-awesome.min.css';
+@import '~jodit/build/jodit.min.css';
+
+//@import '~react-select/dist/react-select.css';
+@import '../libs/icomoon/style.css';
+@import './vendor/main.css';
+//@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+/* LOCAL CSS */
+@import './app/app.scss';
+@import './app/auth.scss';
+@import './app/inbox.scss';
+@import './app/template.scss';
+@import './app/campaigns.scss';
+@import './app/react-data-grid.scss';
+@import './app/media.scss';
+@import './app/modal.scss';
+@import './app/editor.scss';

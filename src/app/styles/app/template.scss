@@ -1,0 +1,10 @@
+.todo-app-w .todo-sidebar {
+  flex: 0 0 300px;
+  padding: 20px;
+}
+
+@media (max-width: 1650px) {
+  .todo-app-w .todo-sidebar {
+    flex: 0 0 310px;
+  }  
+}

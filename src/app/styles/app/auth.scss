@@ -1,0 +1,30 @@
+.auth-wrapper {
+  padding: 50px;
+}
+
+/* #1.  Screen size <= 1650px */
+@media (max-width: 1650px) {
+  .auth-wrapper .all-wrapper {
+    padding: 40px;
+  }
+  .content-panel {
+    padding: 2rem;  
+    flex: 0 0 350px;
+    &.compact {
+      flex: 0 0 300px;
+      padding: 2rem 1rem;
+    }
+  }
+  .content-box {
+    padding: 2rem;
+  }
+  .with-content-panel .content-box {
+    
+  }
+  .all-wrapper {
+    max-width: 100%;
+  }
+}
+
+
+
